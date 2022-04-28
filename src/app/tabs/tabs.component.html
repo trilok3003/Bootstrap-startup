@@ -1,0 +1,7 @@
+<ul class="nav bg-white mt-2" [ngClass]="{'nav-tabs': !borderBottom}">
+<li *ngFor="let tab of tabs; let i = index"  class="nav-item" style="text-align: center">
+  <a (click)="onTabChange(i)" [ngClass]="{'active_tab': tab.active}"
+     class="nav-link pt-0 pb-0 text-new-blue">{{tab.name}}</a>
+</li>
+</ul>
+
