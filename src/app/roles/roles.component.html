@@ -1,0 +1,22 @@
+<h2>Roles</h2>
+<form class="form">
+  <div class="mb-3">
+    <label>Module Access</label>
+    <ng-container *ngFor="let module of MODULES">
+      <div class="mb-2">
+        <input
+          type="checkbox"
+          [(ngModel)]="module.isChecked"
+          name="isChecked"
+          [checked]="module.isChecked"
+        />
+        {{ module.label }}
+        <div *ngIf="module.isChecked" class="ml-4">
+          <div *ngFor="let permission of PERMISSIONS">
+            <input type="checkbox" /> {{ permission }}
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</form>
