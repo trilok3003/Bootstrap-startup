@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { HeaderComponent } from './header/header.component';
 import { RolesComponent } from './roles/roles.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { Tabs2Component } from './tabs-2/tabs-2.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -16,6 +17,7 @@ import { TabsComponent } from './tabs/tabs.component';
     HeaderComponent,
     RolesComponent,
     TabsComponent,
+    Tabs2Component,
   ],
   bootstrap: [AppComponent],
 })

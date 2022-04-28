@@ -1,0 +1,12 @@
+.main-navigation {
+  text-align: center;
+  padding: 8px 0;
+  a {
+    display: inline-block;
+    padding: 8px 16px;
+    border-bottom: 1px solid #b3b3b3;
+    &:hover {
+      border-bottom: 1px solid #000;
+    }
+  }
+}
