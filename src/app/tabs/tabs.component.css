@@ -1,0 +1,11 @@
+.active_tab {
+  border-bottom: 1px solid;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  background: #f1f1f1;
+}
+.text-new-blue {
+  color: #054e6f !important;
+}
